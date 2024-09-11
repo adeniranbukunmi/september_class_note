@@ -1,0 +1,8 @@
+my road mad to learning python
+why am i learning python? 
+
+class continuation 
+operators
+type conversion
+
+
