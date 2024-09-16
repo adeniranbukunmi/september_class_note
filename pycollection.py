@@ -82,10 +82,10 @@ list_of_studt=[]
 
 # For list of strings/chars
 
-lst1 = []
-lst1 = [int(item) for item in input("Enter the list items : ").split()]
-print(lst1)
+# lst1 = []
+# lst1 = [int(item) for item in input("Enter the list items: ").split()]
+# print(lst1)
 
 
-name='tolu titi'
-print(name.split())
+# name='tolu titi'
+# print(name.split())
