@@ -9,3 +9,6 @@ set five structural cbt question and grade the student
 
 display an output that describes a student with a matric number, department
 buid a static entrance app to escribe yourself as an SQI student and specify if you have paid 
+
+
+read on different strings method and their application

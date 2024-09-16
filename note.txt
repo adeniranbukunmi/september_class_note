@@ -5,4 +5,27 @@ class continuation
 operators
 type conversion
 
+Table of Content
 
+Creating a list in Python
+Creating a list with multiple distinct or duplicate elements
+Getting the size of Python list
+Accessing elements from the List
+Negative indexing
+Taking Input of a Python List
+Adding Elements to a Python List
+Using append() method
+Using insert() method
+Using extend() method
+Reversing a List in Python
+A list can be reversed by using the reverse() method in Python.
+Using the reversed() function:
+Removing Elements from the List
+Using remove() method
+Using pop() method
+Slicing of a List
+Negative index List slicing
+List Comprehension
+Basic Example on Python List
+List Methods
+Built-in functions with List

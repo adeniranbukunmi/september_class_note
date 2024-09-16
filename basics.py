@@ -113,16 +113,16 @@ not	: True if the operand is false 	not x
 # value2=()
 # print(not value2)
 
-a= 'mango'
-b='orange'
-if len(a) or len(b) == 5:
-    print("both has the same length")
-else:
-    print("na lie! both are not of the same length")
+# a= 'mango'
+# b='orange'
+# if len(a) or len(b) == 5:
+#     print("both has the same length")
+# else:
+#     print("na lie! both are not of the same length")
 
 x = 24
 y = 20
-list = [10, 20, 30, 40, 50] 
+list_item = [10, 20, 30, 40, 50] 
 # if (x not in list): 
 # 	print("x is NOT present in given list") 
 # else: 
@@ -140,19 +140,19 @@ list = [10, 20, 30, 40, 50]
 #     print('oh nooo! you scored', score)
 
 
-a = 10
-b = a 
-print(b) 
-b += a 
-print(b) 
-b -= a 
-print(b) 
-b *= a 
-print(b) 
-b <<= a 
-print(b)
-b>>=a
-print('result of b:', b)
+# a = 10
+# b = a 
+# print(b) 
+# b += a 
+# print(b) 
+# b -= a 
+# print(b) 
+# b *= a 
+# print(b) 
+# b <<= a 
+# print(b)
+# b>>=a
+# print('result of b:', b)
     # a=11
     # b=3
     # b -=a
@@ -279,8 +279,8 @@ result3=value1 % value2
 # print('done')
 
 x = 24
-y = 20
-list = [10, 20, 30, 40, 50] 
+# y = 20
+# list = [10, 20, 30, 40, 50] 
 
 # if (x not in list): 
 # 	print("x is NOT present in given list") 
@@ -291,7 +291,62 @@ list = [10, 20, 30, 40, 50]
 # 	print("y is present in given list") 
 # else: 
 # 	print("y is NOT present in given list") 
-	
 
-name='bukunmi ola'
+"""
+what string
+string declaration
+string methods
+indexing
+slicing
+format
+data type conversion
+"""	
 
+name='          fukufmi olaranwaju'
+# print(len(name))
+# print(name.strip().capitalize())
+# name[0]='B'
+# print(name)
+# print(name.replace('f', 'b', 1))
+# indexing
+            # 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+            # D a r a s i m i a m a   l  a  d  u d  u
+student_name='Darasimiamaladudu'
+# strings, methods
+
+# new_name=student_name[0:13] + 'lafun'
+# new_name=[student_name]
+
+# print(student_name[3:0])    #this wont print anything because you can only slice from lowest index to the highest
+# new_name[13:]='pupa'
+# print(new_name)
+# print(type(new_name))
+
+# 6
+# print(type(each_num))
+
+lst = []
+n = input("Enter number of elements : ")
+ 
+for i in range(0, int(n)):
+    each_info= [input('fisrt  value: '), input('second value: '), input('name; ')]
+    lst.append(each_info)
+ 
+print(lst)
+print(lst[1])
+
+
+# For list of integers
+lst1 = []
+ 
+# For list of strings/chars
+# lst2 = []
+ 
+# lst1 = [int(item) for item in input("Enter \
+#                 the list items : ").split()]
+ 
+# lst2 = [item for item in input("Enter \
+#                 the list items : ").split()]
+ 
+# print(lst1)
+# print(lst2)
