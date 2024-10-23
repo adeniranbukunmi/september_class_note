@@ -29,3 +29,98 @@ List Comprehension
 Basic Example on Python List
 List Methods
 Built-in functions with List
+
+
+Python Tuple Operations
+Here, below are the Python tuple operations.
+
+Tuple
+Creating a Tuple
+Creating a Tuple with Mixed Datatypes.
+Accessing of Python Tuples; they contain a sequence of heterogeneous elements that are accessed via unpacking or indexing
+Concatenation of Tuples (must e the same datatype)
+Slicing of Tuple
+Deleting a Tuple
+unpacking
+
+Characteristics of Tuples:
+
+1.Immutable: Once created, the elements of a tuple cannot be modified, added, or removed.
+2.Ordered: Tuples maintain the order of elements, and elements can be accessed using indices.
+3.Allow Duplicate Elements: Tuples can contain duplicate values and preserve the position of elements.
+4.Can Contain Mixed Data Types: Tuples can hold different data types, such as integers, strings, and lists.
+5.Hashable: If all elements of a tuple are hashable, the tuple itself can be used as a dictionary key or set element.
+6.Faster than Lists: Due to their immutability, tuples are generally faster for iteration and access operations compared to lis
+
+Python Set is an unordered collection of data types that is iterable, mutable, and has no duplicate elements.
+Creating a Set in Python
+
+Adding Elements to a Set in Python
+Using add() Method
+Using update() Method set1 = set([4, 5, (6, 7)])
+set1.update([10, 11])
+print(set1)
+
+
+A Python dictionary is a data structure that stores the value in key: value pairs.
+Python dictionaries are essential for efficient data mapping and manipulation in programming
+Dictionaries in Python is a data structure, used to store values in key: value format. This makes it different from lists, tuples, and arrays as in a dictionary each key has an associated value
+As of Python version 3.7, dictionaries are ordered and can not contain duplicate keys.
+
+Dict = {}
+print("Empty Dictionary: ")
+print(Dict)
+
+Dict = dict({1: 'Geeks', 2: 'For', 3: 'Geeks'})
+print("\nDictionary with the use of dict(): ")
+print(Dict)
+
+Dict = dict([(1, 'Geeks'), (2, 'For')])
+print("\nDictionary with each item as a pair: ")
+print(Dict)
+
+multi_dict = {1: 'Geeks', 2: 'For',
+        3: {'A': 'Welcome', 'B': 'To', 'C': 'Geeks'}}
+
+print(multi_dict) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object Oriented Programming is a fundamental concept in Python, empowering developers to build modular, maintainable, and scalable applications. By understanding the core OOP principles—classes, objects, inheritance, encapsulation, polymorphism, and abstraction—programmers can leverage the full potential of Python’s OOP capabilities to design elegant and efficient solutions to complex problems.
+
+What is Object-Oriented Programming in Python?
+In Python object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. The main concept of object-oriented Programming (OOPs) or oops concepts in Python is to bind the data and the functions that work together as a single unit so that no other part of the code can access this data. For more in-depth knowledge in Python OOPs concepts, try GeeksforGeeks Python course, it will gives you insights of Python programming
+
+OOPs Concepts in Python
+Class in Python
+Objects in Python
+Polymorphism in Python
+Encapsulation in Python
+Inheritance in Python
+Data Abstraction in Python
+
+Python Class 
+A class is a collection of objects. A class contains the blueprints or the prototype from which the objects are being created.
+
+To understand the need for creating a class let’s consider an example, let’s say you wanted to track the number of dogs that may have different attributes like breed, and age. If a list is used, the first element could be the dog’s breed while the second element could represent its age. Let’s suppose there are 100 different dogs, then how would you know which element is supposed to be which? What if you wanted to add other properties to these dogs? This lacks organization and it’s the exact need for classes
+
+Class Definition Syntax:
+
+class ClassName:
+
+Python Objects
+In object oriented programming Python, The object is an entity that has a state and behavior associated with it

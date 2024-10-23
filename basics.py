@@ -64,7 +64,6 @@ what is operators
 type of operator
 precedence (PEMDAS)
 
-
 """
 # operators
 # python OPERATORS AND IT USES

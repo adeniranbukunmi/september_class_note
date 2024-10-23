@@ -12,3 +12,12 @@ buid a static entrance app to escribe yourself as an SQI student and specify if 
 
 
 read on different strings method and their application
+
+set calculator
+structural cbt test
+cbt test application
+atm machine
+ussd app
+update to bank
+
+update cbt with function, login in register, 5 random questions for each student, no repetition of exams
